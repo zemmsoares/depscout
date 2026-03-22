@@ -1,9 +1,9 @@
 [project]
 name = "depscout"
-version = "0.1.0"
+version = "0.1.1"
 description = "Upgrade intelligence for your Python dependencies"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 license = "MIT"
 
 authors = [

@@ -1,7 +1,10 @@
+# depscout
+
+[![PyPI version](https://img.shields.io/pypi/v/depscout.svg)](https://pypi.org/project/depscout/)
 
 Scans your Python project dependencies and uses an LLM to flag what's worth acting on - outdated packages, unmaintained libraries, and better alternatives.
 
-![depscout-demo-1](https://github.com/user-attachments/assets/7a8d423f-3306-4446-95e4-aadd574c3f12)<svg class="rich-terminal" viewBox="0 0 1238 806.4" xmlns="http://www.w3.org/2000/svg">
+![depscout-demo-1](https://github.com/user-attachments/assets/7a8d423f-3306-4446-95e4-aadd574c3f12)
 
 ![depscout-check-demo-1](https://github.com/user-attachments/assets/85e29aeb-dba4-4dc3-a86a-6231b6078179)
 
