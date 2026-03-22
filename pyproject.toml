@@ -3,8 +3,24 @@ name = "depscout"
 version = "0.1.0"
 description = "Upgrade intelligence for your Python dependencies"
 readme = "README.md"
-license = { file = "LICENSE" }
 requires-python = ">=3.12"
+license = "MIT"
+
+authors = [
+    { name = "Miguel Soares" }
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+import-names = ["depscout"]
+license-files = ["LICENSE"]
+
 dependencies = [
     "rich>=14.0.0",
     "typer>=0.12.0",
@@ -12,8 +28,15 @@ dependencies = [
     "ollama>=0.6.1",
 ]
 
+[project.urls]
+Homepage = "https://github.com/zemmsoares/depscout"
+Issues = "https://github.com/zemmsoares/depscout/issues"
+
 [project.scripts]
 depscout = "depscout.cli:entrypoint"
+
+[tool.hatch.build.targets.wheel]
+packages = ["depscout"]
 
 [build-system]
 requires = ["hatchling"]
