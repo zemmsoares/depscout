@@ -4,5 +4,4 @@ __pycache__/
 .depscout
 eval/
 uv.lock
-tests/
 .python-version
