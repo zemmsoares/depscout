@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv
+.depscout
+eval/
+uv.lock
+tests/
+.python-version
